@@ -99,39 +99,39 @@ def m11():
 v=0
 c=0
 z=0
-print('Bem vindo quiz musica player')
-nome = input('Digite o nome:')
-print('Muito bem {}\n'.format(nome))
+print('\033[7:33m Bem vindo quiz musica player\033[m')
+nome = input('\033[7:33m Digite o nome:\033[m')
+print('\033[7:33m Muito bem {}\n\033[m\n'.format(nome))
 o = int(input(
-    '1) Como voce se sente quando alguem te magoa? \n 1 não liga\n 2 fica encomodado\n 3 Voce fica louco\n digite: '))
+   '\033[7:33m1) Como voce se sente quando alguem te magoa? \n 1 não liga\n 2 fica encomodado\n 3 Voce fica louco\n digite: \033[m'))
 if o == 1:
     v = v +1
 elif o == 2:
     c = c +1
 else:
     z = z +1
-o = int(input('2) que estilo de musica voce gosta? \n 1 normal\n 2 lenta\n 3 acelerada\n digite: '))
+o = int(input('\n\033[7:33m2) que estilo de musica voce gosta? \n 1 normal\n 2 lenta\n 3 acelerada\n digite: \033[m'))
 if o == 1:
     v = v +1
 elif o == 2:
     c = c +1
 else:
     z = z +1
-o = int(input('3) Que tipo de pessoa e? \n 1 incencivel\n 2 participativo\n 3 frajil\n digite: '))
+o = int(input('\n\033[7:33m3) Que tipo de pessoa e? \n 1 incencivel\n 2 participativo\n 3 frajil\n digite: \033[m'))
 if o == 1:
     v = v +1
 elif o == 2:
     c = c +1
 else:
     z = z +1
-o = int(input('4) Voce costuma sair com colegas? \n 1 nunca\n 2 as vezes\n 3 sempre que tiver chance\n digite: '))
+o = int(input('\n\033[7:33m4) Voce costuma sair com colegas? \n 1 nunca\n 2 as vezes\n 3 sempre que tiver chance\n digite: \033[m'))
 if o == 1:
     v = v +1
 elif o == 2:
     c = c +1
 else:
     z = z +1
-o = int(input('5) O que voce gosta? \n 1 anime\n 2 serie\n 3 outros\n digite: '))
+o = int(input('\n\033[7:33m5) O que voce gosta? \n 1 anime\n 2 serie\n 3 outros\n digite: \033[m'))
 if o == 1:
     v = v +1
 elif o == 2:
