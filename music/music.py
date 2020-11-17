@@ -101,47 +101,37 @@ c=0
 z=0
 print('Bem vindo quiz musica player')
 nome = input('Digite o nome:')
-S = input('Digite o seu genero\n M para Homen\n F para mulher\n O outros\n Digite: ')
-if S == "M":
-    G = 'O'
-    E = 'ele'
-elif S == "F":
-    G = 'A'
-    E = 'ela'
-elif S == "O":
-    G = 'E'
-    E = 'ele(a)'
 print('Muito bem {}\n'.format(nome))
 o = int(input(
-    'Como voce se sente quando alguem te magoa? \n 1 não liga\n 2 fica encomodado\n 3 Voce fica louco\n digite: '))
+    '1) Como voce se sente quando alguem te magoa? \n 1 não liga\n 2 fica encomodado\n 3 Voce fica louco\n digite: '))
 if o == 1:
     v = v +1
 elif o == 2:
     c = c +1
 else:
     z = z +1
-o = int(input('que estilo de musica voce gosta? \n 1 normal\n 2 lenta\n 3 acelerada\n digite: '))
+o = int(input('2) que estilo de musica voce gosta? \n 1 normal\n 2 lenta\n 3 acelerada\n digite: '))
 if o == 1:
     v = v +1
 elif o == 2:
     c = c +1
 else:
     z = z +1
-o = int(input('Que tipo de pessoa e? \n 1 estotado\n 2 participativo\n 3 frajil\n digite: '))
+o = int(input('3) Que tipo de pessoa e? \n 1 incencivel\n 2 participativo\n 3 frajil\n digite: '))
 if o == 1:
     v = v +1
 elif o == 2:
     c = c +1
 else:
     z = z +1
-o = int(input('Voce costuma sair com colegas? \n 1 nunca\n 2 as vezes\n 3 sempre que tiver chance\n digite: '))
+o = int(input('4) Voce costuma sair com colegas? \n 1 nunca\n 2 as vezes\n 3 sempre que tiver chance\n digite: '))
 if o == 1:
     v = v +1
 elif o == 2:
     c = c +1
 else:
     z = z +1
-o = int(input('O que voce gosta? \n 1 anime\n 2 serie\n 3 outros\n digite: '))
+o = int(input('5) O que voce gosta? \n 1 anime\n 2 serie\n 3 outros\n digite: '))
 if o == 1:
     v = v +1
 elif o == 2:
